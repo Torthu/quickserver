@@ -1,6 +1,6 @@
 {
 	"name": "quickserver",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Quickly start a Node.js instance serving static files.",
 	"main": "./lib/quickserver.js",
 	"scripts": {
@@ -16,5 +16,7 @@
 	},
 	"author": "Torstein Thune",
 	"license": "MIT",
-	"dependencies": {}
+	"dependencies": {
+		"colors": "1.0.3"
+	}
 }
