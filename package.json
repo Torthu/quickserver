@@ -1,9 +1,20 @@
 {
 	"name": "quickserver",
 	"version": "1.0.0",
-	"dependencies": {},
-	"devDependencies": {},
-	"engines": {
-		"node": ">=0.10.0"
-	}
+	"description": "Quickly start a Node.js instance serving static files.",
+	"main": "./lib/quickserver.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"quickserver": "./bin/quickserver"
+	},
+	"preferGlobal": "true",
+	"repository": {
+    "type": "git",
+		"url": "git@github.com:Torthu/quickserver.git"
+	},
+	"author": "Torstein Thune",
+	"license": "MIT",
+	"dependencies": {}
 }
